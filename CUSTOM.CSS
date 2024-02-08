@@ -512,24 +512,31 @@ width: 100%;
 
 /*---------------------------------MY WORKS------------------------*/
 .imgslider1{
-background: url(images/Screenshot\ 2024-01-23\ 180537.png) white;
+background: url(images/Screenshot\ 2024-02-08\ 111732.png) white;
 background-size: 100%;
 background-repeat: no-repeat;
+filter: saturate(1.1);
+
 }
 .imgslider2{
-    background: url(images/Screenshot\ 2024-01-23\ 180950.png) white;
+    background: url(images/Screenshot\ 2024-02-08\ 111912.png) white;
     background-size: 670px;
     background-repeat: no-repeat;
+    filter: saturate(1.1);
+  
+
     }
         .imgslider3{
             position: relative;
-            top: 3px;
+            top: -1px;
             left: 2px;
-            background: url(images/Screenshot\ 2024-01-23\ 205909.png) white;
+            background: url(images/Screenshot\ 2024-02-08\ 111848.png) white;
             background-size: 750px;
             background-repeat: no-repeat;
             background-position: -35px;
+            filter: saturate(1.1);
             }
+          
         .projectdetails{
             position: absolute;
             left: 55%;
