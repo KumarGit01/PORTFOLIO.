@@ -614,7 +614,7 @@ filter: contrast(2);
             background: linear-gradient(to right,#393F48 10%, #2B2E35 90%);
     transform: translateX(0px);
         }
-      
+       
         .projectdetails2 h1{         
             transform: translatex(-63px);
              border: 2px solid rgba(102, 51, 153, 0.007);

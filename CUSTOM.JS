@@ -40,19 +40,7 @@ var tabLinks = document.getElementsByClassName('tab-links');
          z.classList.toggle('slidebuttonani')
          a.classList.toggle('detcirani')
        }
-
-
-
-
-
-
-
-
-
-
-
-
-       
+   
 const boxes = document.querySelectorAll('.call');
 const boxes1 = document.querySelectorAll('.call1');
 
@@ -88,8 +76,6 @@ box.classList.remove('show');
 
 }
 
-
-
 function checkboxes1() {
     const triggerbottom =window.innerHeight/9*10;   //triggerbottom:862
     console.log(Math.floor(triggerbottom));
@@ -108,4 +94,9 @@ function checkboxes1() {
 
 
 
-  
+ 
+   
+
+ 
+   
+ 
