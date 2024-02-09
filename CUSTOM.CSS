@@ -537,6 +537,8 @@ filter: saturate(1.1);
             filter: saturate(1.1);
             }
           
+           
+                          
         .projectdetails{
             position: absolute;
             left: 55%;
@@ -585,7 +587,7 @@ filter: saturate(1.1);
 z-index: 4;
 }
 .slidebutton span{
-    color: #000000;
+    color: #ffffff;
     padding: 55px 30px;
     height: 30px;
     font-weight: bolder;
@@ -626,7 +628,7 @@ filter: contrast(2);
             position: absolute;
             top:65px;
             left: 45px;
-            font-size: 18px;
+            font-size: 17px;
             width: 440px;
               color: #fefefe;
               border: 2px solid rgba(102, 51, 153, 0.037);
@@ -771,9 +773,10 @@ cursor:pointer;
     width: 650px;
     height: 330px;
 left: 0px;
-    border: 2px solid rgba(55, 255, 0, 0.038);
+border-left: 4px solid #07e8ec;
+border-rIGHT: 4px solid #43D7FF;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    border-radius: 5px; 
+    border-radius: 6px; 
  overflow: hidden;
  
 }
@@ -824,14 +827,40 @@ transform: translateX(0%) ;
 left: 180px;
     width: 80%;
     height: 400px;
-    border: 2px solid rgba(255, 0, 0, 0.022);
     visibility: hidden;
 opacity: 0;
 transition: .8s ease-in-out;
 transform: translateY(200px);
 cursor:pointer;
-
+background-color: #000;
 }
+
+.imgslider4{
+    background: url(images/Screenshot\ 2024-02-09\ 120821.png) rgb(15, 14, 14);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: saturate(1.1);
+    
+    }
+    .imgslider5{
+        background: url(images/Screenshot\ 2024-02-09\ 120727.png) rgb(13, 13, 13);
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: saturate(1.1);
+      
+    
+        }
+            .imgslider6{
+                position: relative;
+                top: -1px;
+                left: 1px;
+                background: url(images/Screenshot\ 2024-02-09\ 120748.png) rgb(9, 9, 9);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: -35px;
+                filter: saturate(1.1);
+                }
+
 .projectimage2{
     position: absolute;
     top: 10%;
@@ -839,12 +868,16 @@ cursor:pointer;
     width: 650px;
     height: 330px;
 right: 100px;
-    border: 2px solid rgba(255, 0, 0, 0);
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    border-radius: 5px; 
+   
+border-left: 4px solid #43D7FF;
+border-rIGHT: 4px solid #43D7FF;
+   
+    border-radius: 10px; 
 transition: all 1s ease-in-out ;
 z-index: 3;
  overflow: hidden;  
+background-color: #000;
+
 }
 
 
@@ -858,7 +891,9 @@ align-items: center;
 height: 100%;
 width:1950px;
 column-gap: 2px;
-background-color: #f4f1f1;
+
+background-color: #000;
+
 }
 .projectimage2holderani{
     transform: translateX(285px);
@@ -871,18 +906,18 @@ background-color: #f4f1f1;
     width: 190%;
     height: 100%;
     border: 2px solid rgba(255, 0, 0, 0.012);
-    animation: slide1 18s ease-in-out infinite;
+    animation: slide1 28s ease-in-out infinite;
     transition: all 1s ease-in-out;
     border-radius: 5px;
 }
 
 @keyframes slide1{
     0%,100%{
-transform: translateX(-203%) ;
+transform: translateX(-200%) ;
 
     }
     50%{
-        transform: translateX(-102%) ;
+        transform: translateX(-100%) ;
             }
     80%{
         transform: translateX(0%) ;
