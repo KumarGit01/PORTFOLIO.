@@ -28,7 +28,7 @@ background-color: #000009;
 body {
   
     scroll-behavior: smooth;
-    overflow-x: scroll;
+    overflow-x: hidden;
  
 }
 
@@ -2094,81 +2094,7 @@ border-radius: 10px 20px 30px 40px;
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
-    .nav-button{
-        display: none;
-    }
-    .nav-menu.responsive{
-        left: 0;
-    }
-    .nav-menu{
-        position: fixed;
-        top: 80px;
-        left: -100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: rgba(255, 255, 255, 0.7);
-        backdrop-filter: blur(20px);
-        width: 100%;
-        min-height: 450px;
-        height: 90vh;
-        transition: .3s;
-    }
-    .nav_menu_list{
-        flex-direction: column;
-    }
-    .nav-menu-btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .featured-box{
-        flex-direction: column;
-        justify-content: center;
-        height: 100vh;
-    }
-    .featured-text{
-        width: 100%;
-        order: 2;
-        justify-content: center;
-        align-content: flex-start;
-        min-height: 60vh;
-    }
-    .social_icons{
-        margin-top: 2em;
-    }
-    .featured-image{
-        order: 1;
-        justify-content: center;
-        min-height: 150px;
-        width: 100%;
-        margin-top: 65px;
-    }
-    .image, .image img{
-        width: 150px;
-        height: 150px;
-    }
-    .row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 50px;
-    }
-    .col{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .about-info, .contact-info{
-        width: 100%;
-    }
-    .project-container{
-        justify-content: center;
-    }
-    .project-box{
-        width: 80%;
-    }
-
+   
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
@@ -2240,109 +2166,6 @@ border-radius: 10px 20px 30px 40px;
        }
     
     
-    @keyframes moveout{
-        0%,100%{
-            left: 20%;
-            top: 10%;
-        }
-        80%{    
-            left: 2%;
-            top: 0%;
-    rotate: 360deg;
-        }
-    }
-    @keyframes moveout1{
-        0%,100%{
-            left: 30%;
-            top: 30%;
-           
-        }
-        80%{          top: -10%;
-            left: -30%;
-    
-            rotate: 280deg;
-    background-color: #cb1010e6;
-    filter: contrast(3);
-        }
-    }
-    @keyframes moveout2{
-        0%,100%{
-            left: 30%;
-            top: 30%;
-        }
-        80%{    
-            left: 65%;
-            top: 25%;
-    rotate: 360deg;
-    
-        }
-    }
-    @keyframes moveout3{
-        0%,40%{
-            left: 65%;
-            top: 40%;
-    
-        }
-        80%,100%{    
-            left: -200%;
-            top: -13%;
-    rotate: 360deg;
-    background-color: #66ff66;
-    width: 100px;
-    height: 100px;
-        }
-    }
-    .ball1{
-        position: absolute;
-        left: 2%;
-        top: 0%;
-        animation:moveout 16s ease-in-out infinite ;
-        transform-origin: -10px;
-     
-    }
-    .ball2{
-        position: absolute;
-        left: 22%;
-        top: 67%;
-        animation:moveout1 45s ease-in-out  infinite ;
-        transform-origin: -300px ;
-    
-    }
-      
-    
-    .ball3{
-        position: absolute;
-        left: 65%;
-        top: 25%;
-        animation:moveout2 16s ease-in-out infinite ;
-        transform-origin: 157px;
-    }
-    .ball4{
-        position: absolute;
-        left: 85%;
-        top: 20%;
-        animation:moveout3 16s ease-in-out forwards ;
-        transform-origin: 287px;
-    }
-    
-    
-        
-      
-    
-    @keyframes blob{
-        0%,100%{
-           scale: 0;
-    opacity: 0;
-            border-radius: 50%;
-        }
-        50%{
-           scale: 1;
-    opacity: 1;
-    
-            border-radius: 50%;
-    
-        }
-    }
     
     .header-text {
         position: absolute;
