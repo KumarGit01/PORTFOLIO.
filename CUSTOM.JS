@@ -41,6 +41,47 @@ var tabLinks = document.getElementsByClassName('tab-links');
          a.classList.toggle('detcirani')
        }
    
+
+
+       function funk(){
+        const x = document.getElementsByClassName('projectimage1')[0]
+        const y = document.getElementsByClassName('projectdetails')[0]
+        const z = document.getElementsByClassName('slidebutton1')[0]
+        
+        
+
+
+
+         x.classList.toggle('projectimage1holderani')
+         y.classList.toggle('projectdetails1ani')
+         z.classList.toggle('slidebuttonani1')
+        
+       }
+
+       
+
+       function funk1(){
+        const x = document.getElementsByClassName('projectimage3')[0]
+        const y = document.getElementsByClassName('projectdetails3')[0]
+        const z = document.getElementsByClassName('slidebutton3')[0]
+        
+        
+
+
+
+         x.classList.toggle('projectimage3holderani')
+         y.classList.toggle('projectdetails3ani')
+         z.classList.toggle('slidebuttonani3')
+        
+       }
+   
+
+
+
+
+
+
+
 const boxes = document.querySelectorAll('.call');
 const boxes1 = document.querySelectorAll('.call1');
 
@@ -97,6 +138,17 @@ function checkboxes1() {
  
    
 
- 
+ function slideshow(){
+    const x = document.querySelectorAll('footer')[0];
+    const y = document.querySelectorAll('.aft')[0];
+  
+
+
+     x.classList.toggle('slideshow')
+     y.classList.toggle('slideshow1')
+     
+
+
+ }
    
  
