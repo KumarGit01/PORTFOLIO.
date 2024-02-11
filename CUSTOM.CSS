@@ -10,6 +10,9 @@
     width: 7px;
     height: 10px;
 }
+*:focus {
+    outline: none;
+}
 
 ::-webkit-scrollbar-thumb {
     background:#3A424C;
