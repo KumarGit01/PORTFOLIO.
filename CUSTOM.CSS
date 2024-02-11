@@ -19,6 +19,7 @@
 }
 :root{
    --color: rgb(30, 159, 171);
+ 
 }
 html {
     scroll-behavior: smooth;
@@ -346,93 +347,6 @@ opacity: 1;
     }
 }
 
-
-/*
-
-.profile{
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    border: 2px solid rgba(25, 0, 255, 0.782);
-    overflow: hidden;
-    background: url(images/k1k.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -2;
-    animation: blob1 45s ease-in-out infinite;
-}
-@keyframes blob1{
-    0%,100%{
-        border-radius: 50px 100px;
-    }
-    50%{
-        border-radius: 100px 500px;
-        rotate: -180deg;
-    }
-}
-
-----------CSS FOR SMALL SCREEN---------- 
-@media only screen and (max-width: 650px) {
-
-    /* Adjust the header image and text size for small screens 
-    body {
-        overflow: hidden;
-        background: #f7f4f4;
-        color: #fff;
-    }
-    nav1 ul1 {
-        display: inline-block;
-    }
-
-    nav .fas {
-        position: fixed;
-        top:10px;
-        left:90%;
-        display: block;
-        font-size: 25px;
-        cursor: pointer;
-        color: black;
-    }
-   
-    nav .fas.fa-times{
-        position: absolute;
-        top: 0px;
-        left: 80px;
-        display: block;
-        font-size: 45px;
-        cursor: pointer;
-        transition: transform 1s ease-in-out;
-    }
-     .fas.fa-times:hover{
-        transform: rotate(180deg);
-    }
-    nav ul {
-        background: #e90449fb;
-        position: fixed;
-        top: 220px;
-        width: 200px;
-        /* Increased the width to accommodate the menu items 
-        right: 0;
-        height: 40vh;
-        padding-top: 50px;
-        transform: translateX(200px);
-        /* Off-canvas menu, initially hidden 
-        transition: transform 1s ease-in-out;
-    }
-
-    nav ul.show {
-        transform: translateX(65px);
-        /* Show the menu when 'show' class is applied 
-    }
-
-    nav ul li {
-        display: block;
-        margin: 25px;
-    }
-}
-
-*/
 
 
 
@@ -2101,6 +2015,8 @@ border-radius: 10px 20px 30px 40px;
 
 @media only screen and (max-width: 600px){
     /* Show the navigation menu on small screens */
+  
+     
     nav ul {
         display:none;
     }
