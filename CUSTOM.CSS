@@ -363,10 +363,9 @@ opacity: 1;
     top: 50%;
     left: 303px;
     flex-basis: 60%;
-    background-color:#4cf1f100;
     width: 370px;
     border-radius: 3px;
-    transition: all 1s ease;
+  
     animation: fadein 2.5s ease-in-out forwards;
 }
 
@@ -467,7 +466,7 @@ filter: saturate(1.1);
             width: 500px;
             height: 250px;
             border-radius: 6px;
-            border: 2px solid rgba(244, 165, 96, 0);
+        
             box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
             background: linear-gradient(to right,#393F48 10%, #2B2E35 90%);
             transition: all .5s ease-in-out;
@@ -512,7 +511,6 @@ z-index: 4;
     padding: 55px 30px;
     height: 30px;
     font-weight: bolder;
-    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
 filter: contrast(2);
 }
 .slidebuttonani{
@@ -528,7 +526,7 @@ filter: contrast(2);
             width: 535px;
             height: 270px;
             border-radius: 3px;
-            border: 2px solid rgba(244, 165, 96, 0);
+        
             transition:transform 1s ease-in-out ;
             box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
             background: linear-gradient(to right,#393F48 10%, #2B2E35 90%);
