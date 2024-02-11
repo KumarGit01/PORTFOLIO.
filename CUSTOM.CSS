@@ -10,9 +10,7 @@
     width: 7px;
     height: 10px;
 }
-*:focus {
-    outline: none;
-}
+
 
 ::-webkit-scrollbar-thumb {
     background:#3A424C;
@@ -645,7 +643,7 @@ filter: contrast(2);
     position: relative;
     width: 100%;
     height: 100vh;
-    border: 2px solid rgb(235, 198, 13);
+
   
 }
 .my1{
@@ -2171,6 +2169,21 @@ border-radius: 50%;
 /*---------------------------------MY WORKS------------------------*/
 :root{
     overflow-x: scroll;
+    
+}
+/* Remove the focus outline for all elements */
+*:focus {
+    outline: none;
+}
+
+/* Add a custom focus style for keyboard users */
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Add a subtle box shadow for focus on all elements */
+*:focus {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 255, 0.5); /* Adjust color and size as needed */
 }
 
 
@@ -2184,7 +2197,7 @@ border-radius: 50%;
 left: 10px;
     width: 20%;
     height: 40px;
-   border: none;
+  
 transition: .8s ease-in-out;
 cursor:pointer;
 transform: translatey(10px);
